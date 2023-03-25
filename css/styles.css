@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    --main-title-color: #2E2F42;  
+
+
+}
+
+body {
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+
+}
+:root
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.studio {
+    color: var(--main-title-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+    font-style: normal;
+}
+
+.menu:hover {
+    color: #404bbf;
+}
+
+.menu:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+}
+
+.adr {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.adr:focus {
+    color: #404bbf;
+}
+
+.adr:hover {
+    color: #404bbf;
+}
+
+.sec {
+    background-color: var(--main-title-color);
+}
+
+.caption {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.btm {
+    font-family: "Roboto", sans-serif;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btm:hover {
+    color: #404BBF;
+    background-color: #404BBF;
+}
+
+.btm:focus {
+    color: #404BBF;
+    background-color: #404BBF;
+}
+
+.tip {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+}
+
+.para {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.tip-two {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-title-color);
+}
+
+.section-four {
+    background-color: #F4F4FD;
+}
+
+.punkt {
+    background-color: #FFFFFF;
+
+}
+
+.footer {
+    background-color: var(--main-title-color);
+}
+
+.studio-two {
+    color: #f4f4fd;
+}
+
+.all {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+}
+
+.all:hover {
+color: #FFFFFF;
+background-color: #404BBF;
+}
+
+.all:focus {
+ color: #FFFFFF;  
+ background-color: #404BBF; 
+}
