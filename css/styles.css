@@ -38,8 +38,7 @@ img {
 .header {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 .container {
@@ -181,7 +180,6 @@ img {
     letter-spacing: 0.02em;
     color: var(--main-title-color);
     padding-bottom: 8px;
-    padding-top: 32px;
 }
 
 .para {
@@ -189,7 +187,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-bottom: 32px;
+    
 }
 
 .tip-two {
@@ -217,6 +215,8 @@ img {
 
 .footer {
     background-color: var(--main-title-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .studio-two {
@@ -259,8 +259,7 @@ img {
     margin: 0;
     padding-left: 0;
     display: flex;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 50px;
     gap: 24px;
 }
 
@@ -271,15 +270,16 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
+    width: 1158px;
 
 }
 
 .footer-text {
     color: #F4F4FD;
     width: 264px;
-    height: 72px;
+    line-height: 24px;
     margin-top: 16px;
-    margin-bottom: 100px;
+    
 }
 
 .footer-container {
@@ -289,7 +289,7 @@ img {
 }
 
 .footer-logo {
-    margin-top: 100px;
+   margin-bottom: 16px;
 }
 
 .portfolio-header {
@@ -319,4 +319,21 @@ img {
 
 .li-btm-space {
     margin-bottom: 120px;
+}
+
+.section-three {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.section-two {
+    padding-top: 120px;
+}
+.text-photos {
+    padding-bottom: 32px;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
