@@ -179,7 +179,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-title-color);
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .para {
@@ -197,6 +197,7 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-title-color);
+    margin-bottom: 50px;
 }
 
 .section-four {
@@ -259,7 +260,6 @@ img {
     margin: 0;
     padding-left: 0;
     display: flex;
-    padding-top: 50px;
     gap: 24px;
 }
 
@@ -269,7 +269,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    gap: 48px 24px;
     width: 1158px;
 
 }
@@ -310,11 +310,10 @@ img {
 
 .li-port {
     border: 1px solid #E7E9FC;
-    margin-bottom: 48px;
 }
 
 .portfolio-pics-text {
-    padding-left: 16px;
+    
 }
 
 .li-btm-space {
@@ -336,4 +335,26 @@ img {
     flex-direction: column;
     align-items: center;
     
+}
+
+.li-sec-two {
+    width: 264px;
+}
+
+.sec {
+    padding-top: 76px;
+    padding-bottom: 120px;
+}
+
+.portfolio-groups {
+    padding-left: 16px;
+}
+
+.portfolio-pics-text-2 {
+    margin-bottom: 32px;
+    margin-top: 8px;
+}
+
+.portfolio-pics-text {
+    margin-top: 32px;
 }
