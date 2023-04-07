@@ -254,6 +254,9 @@ img {
 .top-menu {
     display: flex;
     gap: 40px;
+    margin: 0;
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
 
 .section-lists {
@@ -270,7 +273,6 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     gap: 48px 24px;
-    width: 1158px;
 
 }
 
@@ -289,7 +291,6 @@ img {
 }
 
 .footer-logo {
-   margin-bottom: 16px;
 }
 
 .portfolio-header {
@@ -304,12 +305,13 @@ img {
 }
 
 .btn-portfolio {
-    margin-top: 96px;
     margin-bottom: 72px;
+    margin-top: 96px;
+    padding: 0;
 }
 
 .li-port {
-    border: 1px solid #E7E9FC;
+
 }
 
 .portfolio-pics-text {
@@ -317,7 +319,6 @@ img {
 }
 
 .li-btm-space {
-    margin-bottom: 120px;
 }
 
 .section-three {
@@ -342,19 +343,19 @@ img {
 }
 
 .sec {
-    padding-top: 76px;
     padding-bottom: 120px;
 }
 
 .portfolio-groups {
+    padding-top: 32px;
+    padding-bottom: 32px;
     padding-left: 16px;
+    padding-right: 54px;
 }
 
 .portfolio-pics-text-2 {
-    margin-bottom: 32px;
-    margin-top: 8px;
+
 }
 
 .portfolio-pics-text {
-    margin-top: 32px;
 }
